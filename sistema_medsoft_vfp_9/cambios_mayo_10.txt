@@ -1,0 +1,73 @@
+Base CTACTBLE
+cambiar campo cod_jer por cod_bjm
+agregar todos los registros de la base actualizada a la nueva estructura
+
+Base ASI_CAB
+indice 2 etiqueta=asi_fec  clave=dtos(fec_mov)
+
+Base ASI_DET
+MODIFICAR 
+indice 1 etiqueta=clave  clave=STR(IDEMPCBLE,1)+STR(NUMASIEN,8)+COLUMNA
+AGREGAR
+indice 2 etiqueta=cuenta  clave=STR(IDEMPCBLE,1)+STR(NUMASIEN,8)+STR(IDCTACBLE,4)+COLUMNA
+
+Base CTOCTBLE (207)
+indice 3 etiqueta=nombre clave=NOMBRE
+
+Base CTACTBLE (220)
+indice 4 etiqueta=codemp clave=STR(COD_EMP,1)+STR(COD_INT,4)
+
+******************************************************************************************
+
+
+
+Base EMPCTBLE
+agregar campo ESTADO (Numerico)
+
+REORGANIZACION DE PARAMETROS
+
+Contables
+- Centros de Costo
+- Cuentas Contables
+
+de Afiliacion
+- Familiares
+- Categoria de Familiares
+- Sexos
+- Estados Civiles
+
+Bases nuevas
+dbf\expediente indices=1- clave- idexpte
+                       2- ninicio- i_nombre
+                       3- finicio- dtos(f_inicio)
+help\t_eareas indices=1- clave- idestado
+                      2- nombre- nombre
+help\t_edestino indices=1- clave- iddestino
+                        2- nombre- nombre
+help\eEstados indices=1- clave- idestado
+                      2- nombre- nombre
+help\t_eTramite indices=1- clave- idtramite
+                        2- nombre- nombre
+help\t_eEntidad indices=1- clave- codigo
+                        2- nombre- nombre
+
+En PERMISOS.DAT agregar nuevo tipo de comprobante EXP con ultimo nro de expediente
+                agregar campo en usuarios --> idarea - entero - valor defecto 1
+
+
+
+
+
+*******************************
+Se puede cambiar el area o el operador en un expediente?
+Se puede cambiar datos de un expediente cuando esta ya en tramite ?
+
+
+******************************
+
+PRESTASE
+1- registro 1342 colocar en CO_NUM 00039282
+2- reindexar PRESTASE
+3- colocar saldo a las cuotas que no tienen su comprobante de pago de la liq. nro 10639 (PRESTASC)
+4- CORRER EL EJECUTABLE CAMBIOS.EXE para dejar al dia las cuotas
+

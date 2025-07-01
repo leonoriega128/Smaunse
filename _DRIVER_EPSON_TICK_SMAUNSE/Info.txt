@@ -1,0 +1,41 @@
+Le mando adjunto el driver fiscal.
+
+La password del archivo es ifdrivers
+
+
+Para instalarlos, cierre cualquier programa que este usando el ocx fiscal y copie la DLL sobre las version anterior.
+1. Registracion
+
+
+Su nro de serie es "27-0163848-435". 
+Tiene que ingresar este numero por lo menos una vez para activar el driver. 
+
+Por ejemplo: 
+
+IFiscal.SerialNumber ="
+
+27-0163848-435"
+2. Instalacion del Ocx Fiscal
+
+
+Se recomienda copiar las DLL y el ocx fiscal unidrv.ocx en un directorio o subdirectorio de la aplicacion que este vacio o con pocos archivos. 
+El ocx fiscal debe estar siempre junto a las librerias de los drivers fiscales por ejemplo con la libreria h32032.dll o tm2032.dll.
+
+Luego registre el ocx fiscal en el sistema con el programa regsvr32.exe o cualquier otro utilidad que permita registrar activex. 
+
+Si usa el regsvr32 debe invocarlo desde la ventana de DOS de la siguiente forma
+
+regsvr32 unidrv.ocx
+
+Una vez instalado y registrado, el ocx fiscal no debe moverse del directorio de instalacion. 
+
+Si por alguna razon debe moverlo, debera copiar nuevamente todos los archivos del ocx fiscal y registrarlo nuevamente como se describio en el parrafo anterior.
+
+
+Atte 
+Marcello 
+Departamento Tecnico
+
+Tel: (011) 4-808-0160 
+Capital Federal,Buenos Aires
+

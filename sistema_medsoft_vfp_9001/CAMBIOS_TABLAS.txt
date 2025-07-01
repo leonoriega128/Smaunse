@@ -1,0 +1,351 @@
+-------------------------------------
+01:54 p.m. 05/08/2008	Tabla: ANULORD 
+nuevo campo-> "acreditada" L
+------------------------------------
+
+----------------------------------------
+11:54 a.m. 19/08/2008	TABLA:REINTEGR
+nuevo campo-> "CO_NUM" c(8)
+----------------------------------------
+
+-----------------------------------------
+TABLA:C_PLAN_E
+nuevo indice-> "clave" CODIGO
+-----------------------------------------
+
+-----------------------------------------
+10:55 a.m. 20/08/2008	TABLA:A_CTAITE
+nuevo campo->	"LDA" L
+-----------------------------------------
+
+-----------------------------------------
+11:10 a.m. 20/08/2008	TABLA:AFIL_FAC
+nuevo indice->	"leg"	PADL(ALLTRIM(LEGAJO),15,"0")
+-----------------------------------------
+
+-----------------------------------------
+01:07 p.m. 21/08/2008	TABLA:AFILIADO
+nuevos campos-> monto_jub N(11,2)
+		cuota_jub N(11,2)
+-----------------------------------------
+
+-----------------------------------------
+10:17 a.m. 22/08/2008	TABLA:T_AFILIA
+nuevo campo->	"cto_fac" c(3)
+-----------------------------------------
+
+-----------------------------------------
+02:51 p.m. 25/08/2008 tabla:ULT_PAGO
+modifica indice-> "clave" 
+
+ALLTRIM(O_SOCIAL)+ PADL(ALLTRIM(A_NUMERO),15,"0")+ ALLTRIM(STR(ANO))+ALLTRIM(STR(MES))
+-----------------------------------------
+
+-----------------------------------------
+03:00 p.m. 26/08/2008 tabla.AFIL_FAC
+nuevo indice-> "AFIDTO" AFI_DTO
+----------------------------------------
+
+-----------------------------------------
+12:04 p.m. 29/08/2008 Tabla:CONF_AUT en PERMISOS
+nuevo campo-> CONCEPTO c(3)
+----------------------------------------
+
+--------------------------------------
+04:10 p.m. 29/08/2008 tabla: C_PLAN
+nuevo campo-> INHAXMORA L
+--------------------------------------
+
+-------------------------------------
+09:22 a.m. 02/09/2008 tabla:T_DOCUMENTO
+nuevo campo-> "COD_OLD" N(1)
+--------------------------------------
+
+--------------------------------------
+03:07 p.m. 02/09/2008 tablas: EMPCUIT y AFILIADO
+CAMBIAR CAMPO CODIGO y EMP_APORTE C(14)->C(15)
+--------------------------------------
+
+-------------------------------------
+05:28 p.m. 02/09/2008 tabla:dtoencuo
+nuevos campos:	hora c(5)
+		anulado L
+-----------------------------------
+
+-------------------------------------
+10:00 a.m. 04/09/2008 tabla:T_AFILIA
+nuevo campo. DTO_PLA L
+-----------------------------------
+
+-----------------------------------
+02:56 p.m. 10/09/2008 tabla A_CTACTE
+nuevo campo IMP_NOGRA N(11,2)
+-----------------------------------
+
+---------------------------------------
+08:57 a.m. 12/09/2008 tabla NOMENCLA
+NUEVOS CAMPOS->	nivel_cole C(2)
+		nivel_urol C(2)
+		cara L
+		pieza L
+--------------------------------------
+
+---------------------------------------
+11:34 a.m. 12/09/2008 TABLA NIVELCIR.dbf
+COPIAR NUEVA TABLA EN HELP
+indices->	"codigo" codigo
+		"nombre" nombre
+---------------------------------------
+
+---------------------------------------
+10:18 a.m. 15/09/2008 tabla:P_PLAN
+nuevo campo->	forzar L
+---------------------------------------
+
+--------------------------------------
+03:13 p.m. 15/09/2008 tabla AFILIADO
+nuevo campo FINC_FECHA D
+--------------------------------------
+
+--------------------------------------
+09:55 a.m. 16/09/2008 tabla DTOENCUO
+nuevo campo->	enviado n(2) 0=no enviado y se agrega 1 por cada vez que se envie...
+nuevos indices-> "CLAVE" ORIGINADO+STR(ANO)+PADL(ALLTRIM(STR(MES)),2,'0')
+		 "AFI"	 O_SOCIAL+A_NUMERO
+--------------------------------------
+
+-------------------------------------
+09:51 a.m. 19/09/2008 Tabla I_AUTORI
+nuevo campo-> FORZADO L
+-------------------------------------
+
+-------------------------------------
+10:06 a.m. 19/09/2008 tabla NOMENCLA
+nuevo campo->	FEPAC n(5,2)
+-------------------------------------
+
+-------------------------------------
+02:34 p.m. 19/09/2008 tabla AUTORIZA
+nueov indice-> "COB" CO_NUM	FILTRO->!empty(CO_NUM)
+nuevo campo-> imp_fepac N(11,2)
+-------------------------------------
+
+-------------------------------
+REINTEGR nuevo campos 
+
+	TIPO C(3)
+	pagado L
+	op_pago I
+	f_pago D
+	h_pago C(5)
+-----------------------------
+
+
+------------------
+CAMBIOS PARA DERIVACIONES
+---------------------
+20/10/2008
+NUEVA TABLA AFIDERIVA
+con indices:
+2	afiifec	str(control,1)+dtos(e_fecha)			FALSO		FALSO
+3	afiife2	DTOS(OP_FECHA)					FALSO		FALSO
+4	DERNRO	DER_SUC+DER_NRO					FALSO		FALSO
+1	afiicod	O_SOCIAL+A_NUMERO+FAMILIAR+DER_SUC+DER_NRO	not deleted()	FALSO		FALSO
+5	ult_int	o_social+a_numero+familiar+dtos(i_fecha)	ESTADO #.T.	VERDADERO	FALSO
+---------------------
+----------------------------
+20/10/2008
+NUEVA TABLA TIP_DER
+indices
+COD "CODIGO"
+NOM "NOMBRE"
+-----------------------------
+-------------------
+20/10/2008
+TABLA AUTORIZA NUEVO CAMPOS
+DER_SUC c(4)
+DER_NRO c(8)
+
+NUEVO INDICE 
+DERNRO	'DER_SUC+DER_NRO'
+----------------------------
+-----------------------
+PERMISOS NUMERADOR "DER"
+----------------------
+
+------------------------------------
+11:17 a.m. 29/10/2008 TABLA CONVENIOS
+nuevos campos -> gen_cose n(1)
+		dis_coleg n(1)
+---------------------------------------
+
+------------------------------------
+02:52 p.m. 30/10/2008 TABLA ENTIDAD y MOVE_ENT
+nuevos campos -> gen_cose n(1)
+		dis_coleg n(1)
+---------------------------------------
+
+------------------------------------
+04:34 p.m. 31/10/2008 TABLA P_CTAITE/MO_CTAITE
+nuevos campos -> hono_col n(10,2)
+		gas_col n(10,2)
+---------------------------------------
+
+--------------------------------
+04:28 p.m. 11/11/2008 TABLA CONSUMO
+TIPOS DE DATO DE CAMPOS
+PIEZA C(2)
+CARA C(3)
+nuevo campo GEN_COS N(11,2)
+--------------------------------
+
+--------------------------------
+09:28 a.m. 27/11/2008 TABLA CONSUMO y TABLA FACTUP
+nuevos campos -> hono_col n(10,2)
+		gas_col n(10,2)
+12:02 01/12/2008 consumo-> DSK L
+----------------------------------
+
+---------------------
+9:56 15/12/2008 TABLA CAT_FAM
+nuevo campo->	REPITE L
+----------------------
+
+---------------------
+11:05 a.m. 26/01/2009 TABLA CONSUMO
+nuevo campo -> GEN L
+-----------------------
+
+-------------------------------
+01:41 p.m. 02/03/2009 tabla HAFILIAD
+
+INCAPACIDA	L	(1)
+TIPO_DISC	C	(2)
+DIS_FDES	D	(8)
+DIS_FHAS	D	(8)
+MATERNO		L	(1)
+MAT_FDES	D	(8)
+MAT_FHAS	D	(8)
+ESTUDIAN	L	(1)
+EST_FDES	D	(8)
+EST_FHAS	D	(8)
+ANO_LECT	N	(4,0)
+PARTO		L	(1)
+F_PARTO_D	D	(8)
+F_PARTO_H	D	(8)
+ONCOLOGICO	L	(1)
+ONC_FDES	D	(8)
+ONC_FHAS	D	(8)
+TIPO_ONCO	C	(2)
+
+-------------------------------
+
+--------------------------------
+03:04 p.m. 09/03/2009 REINTGR
+---------------------------
+nuevos campos
+PIEZA C(2),CARA C(3)
+------------------------
+
+--------------------------
+03:26 p.m. 10/03/2009 AFIDERIVA
+nuevo campo
+VALSMA L
+---------------------------
+
+---------------------------
+12:23 p.m. 31/03/2009 FACTUP
+nuevo cmapo-> val_file c(8)
+
+indice vf val_file
+----------------------------
+
+-----------------------------
+08:42 a.m. 03/04/2009 I_AUTORIR
+nuevos campos-> NRO_LOTE n(6)
+		NRO_PRESTA n(5)
+-------------------
+
+----------------------
+01:45 p.m. 03/04/2009
+I_AUTORIR generar indices igual al I_AUTORI
+
+------------------
+
+-------------------
+10:12 a.m. 29/04/2009 NUEVAS TABLAS
+
+dbf\PLANxAFI
+INDICE CLAVE "O_SOCIAL+PADL(ALLTRIM(A_NUMERO),15,"0")+FAMILIAR+PLAN+DTOS(FDESDE)"
+
+help\TIPxPLAN
+INDICE CLAVE "PLAN+TIPO"
+
+--------------------
+
+-------------------------
+03:09 p.m. 04/05/2009 PRESTA\PRESTASG
+nuevo indice-> SOCIO "O_SOCIAL+A_NUMERO"
+----------------------
+
+--------------------
+03:30 p.m. 23/06/2009 AUTORIZA
+nuevo campo->	PLAN_E c(5)
+-------------
+
+---------------------------
+IVA_VENT_MAN
+tipo_comp+sucursal+numero+STR(ivai,11,2)+item_neto
+----------------------------
+
+
+ESTADISTICO
+-------------------
+TIS_CONS y EST_CONS
+NIVEL c(2)
+
+-------------------------
+04:29 p.m. 14/09/2009
+CONC_CTE
+nuevo campo DES_LISTA c(30)
+------------------------------
+
+nuevo indice IVA_COMP
+clave->ACT_COD+TIPO_COMP+SUCURSAL+NUMERO      
+
+
+-------------------------
+16:03 18/12/2009
+nuevo campo en C_PLAN_E
+
+INACTIVA L 
+
+--------------------
+
+-------------------------
+11:00 05/01/2010
+nuevos campos en C_PLAN_E
+
+d_edad n(3) 
+h_edad n(3) 
+--------------------
+
+
+
+
+
+
+
+COMPROBATES EXTRA ARCHIVO MANUAL... OBRA SOCIAL IVA COMPRAS
+
+-------------
+sabes que me dio un error cuando quize ver una cobranza de un ticket, viste que en la cta cte se pueden ver las autoriz. apuntadas a ese ticket, pero ese ticket tenia una reciprocidad cobrada, y creo que por eso dio error....
+ si quieres mira el afiliado 1444
+ un ticket del 27/07
+ese dia el af. tiene una nota de credito y un ticket, el ticket tiene una o.de practica, consultas, monodrogas y una reciprocidad
+------------------
+control topes de cnsulta limite configurado x cada familiar
+
+
+14:04 05/11/2009
+CAMBIAR TIPO DE NUMERICO EN NORMAS 4->8

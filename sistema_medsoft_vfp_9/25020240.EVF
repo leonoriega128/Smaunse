@@ -1,0 +1,262 @@
+
+Fecha            : 25/02/2022 02:40:51 AM
+Version          : Visual FoxPro 09.00.0000.5815 Biblioteca de soporte de EXE para Windows
+Nombre Archivo   : 25020240.EVF
+
+Error:
+       N£mero            :   107
+       Mensaje           : Incompatibilidad entre el tipo de operador y el tipo de operando.
+       M¢dulo            : PROCEDURE FRM_PRESTAMOS_SALUD_30A50.VALIDAR_LIQFINAL 
+       L¡nea             : SELECT _69U05QVG3
+
+       N£mero L¡nea      :          0
+
+Memoria                  : 640 KB OR 655360 Bytes
+    Memoria Obje. Def.   : 5718712
+    Impresora Actual     : OFF
+    Directorio Actual    : \SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9
+
+Unidad Predeterminada    : C:
+     Tama¤o de la unidad : *,***,***,***
+           Espacio Libre : *,***,***,***
+  Carpeta predeterminado : \SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\
+  Carpeta de Arch. Temp. : C:\USERS\CHELO\APPDATA\LOCAL\TEMP
+
+------------------------------------------------------------------------------
+Valores actuales de las variables de entorno
+El procesador es Pentium
+Tabla seleccionada actualmente:
+Seleccione el área: 29, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT002K.TMP    Alias: _69U05QVG3
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 28, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT002J.TMP    Alias: _69U05Q8WH
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 16, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT002G.TMP    Alias: _69U05Q8R9
+    Página de códigos:   1252
+         Archivo memo:   C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT002H.TMP
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 27, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT002F.TMP    Alias: _69U05Q7WG
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 26, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT002B.TMP    Alias: _69U05Q4IH
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 25, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT0027.TMP    Alias: _69U05Q3K8
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 24, Tabla en uso: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASG.DBF    Alias: PRESTASG
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASG.CDX
+   Etiqueta de índice:   CLAVE        Ordenación: Machine    Clave: IDLIQUIDA
+Etiqueta de índice principal:SOCIO        Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+      Bloqueos: <ninguno>
+
+Seleccione el área: 19, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT001W.TMP    Alias: _69U05PFC9
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 23, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT001R.TMP    Alias: _69U05PE4F
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 15, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT001N.TMP    Alias: _69U05PDNI
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT001N.CDX
+Etiqueta de índice principal:XINDEX       Ordenación: Machine    Clave: A_NUMERO+FAMILIAR
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 22, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT001M.TMP    Alias: _69U05NODR
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 21, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT001I.TMP    Alias: _69U05NNF2
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 20, Tabla en uso: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASC.DBF    Alias: PRESTASC
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASC.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: IDLIQUIDA
+   Etiqueta de índice:   CUOTA        Ordenación: Machine    Clave: ALLTRIM(STR(IDLIQUIDA))+PADL(CUOTA,3,"0")
+   Etiqueta de índice:   SOCIO        Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+      Bloqueos: <ninguno>
+
+Seleccione el área: 18, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT0016.TMP    Alias: _69U05M9G0
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 17, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT0010.TMP    Alias: _69U05M7SR
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 14, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\00008HZT000V.TMP    Alias: _69U05M5YD
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 13, Tabla en uso: C:\MED_NEW_SMAUNSE\PRESTA\PREGLAS.DBF    Alias: PREGLAS
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\PRESTA\PREGLAS.CDX
+Etiqueta de índice principal:ORDEN        Ordenación: Machine    Clave: IDDESCUEN+STR(ORDEN,2)
+      Bloqueos: <ninguno>
+
+Seleccione el área: 12, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\DTOENCUO.DBF    Alias: DTOENCUO
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\DTOENCUO.CDX
+   Etiqueta de índice:   CLAVE        Ordenación: Machine    Clave: ORIGINADO+STR(ANO)+PADL(ALLTRIM(STR(MES)),2,"0")
+Etiqueta de índice principal:AFI          Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   LIQUIDA      Ordenación: Machine    Clave: IDLIQUIDA+O_SOCIAL+A_NUMERO
+      Bloqueos: <ninguno>
+
+Seleccione el área: 11, Tabla en uso: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASE.DBF    Alias: PRESTASE
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASE.CDX
+   Etiqueta de índice:   CLAVE        Ordenación: Machine    Clave: IDLIQUIDA Candidate    Para: .NOT.DELETED()
+   Etiqueta de índice:   ALTAS        Ordenación: Machine    Clave: DTOS(F_ALTA)
+Etiqueta de índice principal:SOCIO        Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   COB          Ordenación: Machine    Clave: CO_NUM
+      Bloqueos: <ninguno>
+
+Seleccione el área: 10, Tabla en uso: C:\MED_NEW_SMAUNSE\OPT\T_CTACTE.DBF    Alias: T_CTACTE
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\OPT\T_CTACTE.CDX
+Etiqueta de índice principal:ACTONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AIMONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   A_ANOMES     Ordenación: Machine    Clave: STR(ANO,4)+STR(MES,2)
+   Etiqueta de índice:   A_COMP       Ordenación: Machine    Clave: TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   DIA          Ordenación: Machine    Clave: DTOS(EMIT_FECHA)+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AC_INV       Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO    Para: saldo=0 (Descendente)
+   Etiqueta de índice:   COB          Ordenación: Machine    Clave: CO_NUM
+   Etiqueta de índice:   A_CTOFAC     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+STR(ANO,4)+STR(MES,2)+CONCEPTO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  9, Tabla en uso: C:\MED_NEW_SMAUNSE\PYR\O_CTACTE.DBF    Alias: O_CTACTE
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\PYR\O_CTACTE.CDX
+Etiqueta de índice principal:ACTONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AIMONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   A_ANOMES     Ordenación: Machine    Clave: STR(ANO,4)+STR(MES,2)
+   Etiqueta de índice:   A_COMP       Ordenación: Machine    Clave: TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   DIA          Ordenación: Machine    Clave: DTOS(EMIT_FECHA)+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AC_INV       Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO    Para: saldo=0 (Descendente)
+   Etiqueta de índice:   COB          Ordenación: Machine    Clave: CO_NUM
+      Bloqueos: <ninguno>
+
+Seleccione el área:  8, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\A_SPOOL.DBF    Alias: A_SPOOL
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\A_SPOOL.CDX
+Etiqueta de índice principal:ASPTSN       Ordenación: Machine    Clave: TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   ASPOSAF      Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  7, Tabla en uso: C:\MED_NEW_SMAUNSE\DBF\AFIL_FAC.DBF    Alias: AFIL_FAC
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\DBF\AFIL_FAC.CDX
+Etiqueta de índice principal:PRINCIPAL    Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   LEG          Ordenación: Machine    Clave: PADL(ALLTRIM(LEGAJO),15,"0")
+   Etiqueta de índice:   AFIDTO       Ordenación: Machine    Clave: AFI_DTO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  6, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\A_CTADEU.DBF    Alias: A_CTADEU
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\A_CTADEU.CDX
+Etiqueta de índice principal:CMP          Ordenación: Machine    Clave: COMP
+   Etiqueta de índice:   ADO          Ordenación: Machine    Clave: ADOSADO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  5, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\CONC_CTE.DBF    Alias: CONC_CTE
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\CONC_CTE.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: COD_INT Candidate
+   Etiqueta de índice:   DGI          Ordenación: Machine    Clave: COD_DGI
+      Bloqueos: <ninguno>
+
+Seleccione el área:  4, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\A_CTACTE.DBF    Alias: A_CTACTE
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\A_CTACTE.CDX
+Etiqueta de índice principal:ACTONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AIMONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   A_ANOMES     Ordenación: Machine    Clave: STR(ANO,4)+STR(MES,2)
+   Etiqueta de índice:   A_COMP       Ordenación: Machine    Clave: TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   DIA          Ordenación: Machine    Clave: DTOS(EMIT_FECHA)+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AC_INV       Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO    Para: saldo=0 (Descendente)
+   Etiqueta de índice:   COB          Ordenación: Machine    Clave: CO_NUM
+   Etiqueta de índice:   A_CTOFAC     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+STR(ANO,4)+STR(MES,2)+CONCEPTO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  3, Tabla en uso: C:\MED_NEW_SMAUNSE\DBF\ULT_PAGO.DBF    Alias: ULT_PAGO
+    Página de códigos:   437
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\DBF\ULT_PAGO.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: ALLTRIM(O_SOCIAL)+PADL(ALLTRIM(A_NUMERO),15,"0")+ALLTRIM(STR(ANO))+ALLTRIM(STR(MES))
+      Bloqueos: <ninguno>
+
+Seleccione el área:  2, Tabla en uso: C:\MED_NEW_SMAUNSE\HELP\O_SOCIAL.DBF    Alias: O_SOCIAL
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\HELP\O_SOCIAL.CDX
+Etiqueta de índice principal:OSOCCOD      Ordenación: Machine    Clave: CODIGO
+   Etiqueta de índice:   OSOCNOM      Ordenación: Machine    Clave: NOMBRE
+   Etiqueta de índice:   CUIT         Ordenación: Machine    Clave: NRO_IVA
+         Archivo memo:   C:\MED_NEW_SMAUNSE\HELP\O_SOCIAL.FPT
+      Bloqueos: <ninguno>
+
+Seleccione el área:  1, Tabla en uso: C:\MED_NEW_SMAUNSE\DBF\AFILIADO.DBF    Alias: AFILIADO
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\DBF\AFILIADO.CDX
+   Etiqueta de índice:   AFINUM       Ordenación: Machine    Clave: A_NUMERO
+   Etiqueta de índice:   AFINOM       Ordenación: Machine    Clave: NOMBRE
+Etiqueta de índice principal:AFIONUM      Ordenación: Machine    Clave: ALLTRIM(O_SOCIAL)+PADL(ALLTRIM(A_NUMERO),15,"0")+ALLTRIM(FAMILIAR)
+   Etiqueta de índice:   AFIONOM      Ordenación: Machine    Clave: O_SOCIAL+NOMBRE
+   Etiqueta de índice:   AFIENUM      Ordenación: Machine    Clave: O_SOCIAL+EMPRESA+A_NUMERO
+   Etiqueta de índice:   AFIENOM      Ordenación: Machine    Clave: O_SOCIAL+EMPRESA+NOMBRE
+   Etiqueta de índice:   AFIEPLN      Ordenación: Machine    Clave: O_SOCIAL+EMPRESA+PLAN
+   Etiqueta de índice:   AFIPLNR      Ordenación: Machine    Clave: O_SOCIAL+PLAN+A_NUMERO
+   Etiqueta de índice:   AFIDNI       Ordenación: Machine    Clave: O_SOCIAL+D_NRO
+   Etiqueta de índice:   CUIL         Ordenación: Machine    Clave: D_NRO
+         Archivo memo:   C:\MED_NEW_SMAUNSE\DBF\AFILIADO.FPT
+      Bloqueos: <ninguno>
+
+Archivo alternativo: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\25020240.EVF
+Bibliotecas de clases: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES CONTROL\CONFIGURACION.VCX ALIAS CONFIGURACION, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES PADRES\CLASE PADRE.VCX ALIAS CLASE_PADRE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES PADRES\CONTROLES.VCX ALIAS CONTROLES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES ENTIDAD\ENTIDADES.VCX ALIAS ENTIDADES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\INGRESO_DE_COMPROBANTES_PRESTADORES.VCX ALIAS INGRESO_DE_COMPROBANTES_PRESTADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\FORMULARIOS.VCX ALIAS FORMULARIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PARAMETROS.VCX ALIAS PARAMETROS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\NOMENCLADORES.VCX ALIAS NOMENCLADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\SET_DE_UNIDADES.VCX ALIAS SET_DE_UNIDADES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MENUS&USUARIOS.VCX ALIAS MENUS_USUARIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MANTENIMIENTO_DE_TABLAS.VCX ALIAS MANTENIMIENTO_DE_TABLAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\LISTA_DE_PRECIOS.VCX ALIAS LISTA_DE_PRECIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PLANES&COBERTURAS.VCX ALIAS PLANES_COBERTURAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\AFILIADOS.VCX ALIAS AFILIADOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS.VCX ALIAS CONVENIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS_MED.VCX ALIAS CONVENIOS_MED, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS_PART.VCX ALIAS CONVENIOS_PART, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CARGA_PRESTACIONES.VCX ALIAS CARGA_PRESTACIONES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\AUTORIZACIONES.VCX ALIAS AUTORIZACIONES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\FACTURACION_CUOTAS.VCX ALIAS FACTURACION_CUOTAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PAGOS.VCX ALIAS PAGOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MIGRACIONES2.VCX ALIAS MIGRACIONES2, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PRESTADORES.VCX ALIAS PRESTADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PROVEEDORES.VCX ALIAS PROVEEDORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MEDICAMENTOS.VCX ALIAS MEDICAMENTOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\IVA.VCX ALIAS IVA, C:\PROGRAM FILES (X86)\MICROSOFT VISUAL FOXPRO 9\FFC\_REPORTLISTENER.VCX ALIAS _REPORTLISTENER, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MBANCO.VCX ALIAS MBANCO, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MCONTABLE.VCX ALIAS MCONTABLE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MTARJETAS.VCX ALIAS MTARJETAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MEXPEDIENTE.VCX ALIAS MEXPEDIENTE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CARGA_PRESTA_DELEGA.VCX ALIAS CARGA_PRESTA_DELEGA, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\TAREAS_PROCESANDO\GERMAN.VCX ALIAS GERMAN, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\TAREAS_PROCESANDO\MARCELO.VCX ALIAS MARCELO
+Ruta de búsqueda del archivo: 
+Directorio predeterminado: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9
+Dispositivo o archivo de impresión:  
+Área de trabajo      =   29
+Margen               =    0
+Decimales            =    3
+Ancho del campo memo =   50
+Escritura anticipada =   20
+Tamaño del bloque    =   64
+Reproceso            =       0
+Refresh              = 0, 5.000 SEGUNDOS
+Tiempo de espera DDE =    2000
+Seguridad DDE        = on
+
+Página de códigos: 1252
+Secuencia de ordenación: Machine
+Página de códigos del compilador: 1252
+Formato de fecha: British
+Tecla de método abreviado de macro = 
+Los parámetros de FDU se pasan por: REFERENCE
+Teclas de método abreviado de ON KEY LABEL:
+ESCAPE              ON KEY
+Opciones de combinación de texto
+          Delimitadores:  Izquierda = <<  Derecha = >>
+          Mostrar
+
+Alternate  - on     Century    - on     Deleted    - on     Fixed      - off    Mouse      - on     Safety     - off    Unique     - off 
+ANSI       - off    Clear      - on     Device     - pant   Fullpath   - on     Multilocks - off    Space      - on  
+Aserciones - off    Color      - on     Echo       - off    Heading    - on     Near       - off    Status Bar - off 
+Bell       - on     Compatible - off    Escape     - off    Help       - on     NULL       - off    Sysmenus   - on  
+Blink      - on     Confirm    - off    Exact      - off    Intensity  - on     Optimize   - on     Talk       - off 
+Brstatus   - off    Console    - off    Exclusive  - off    Lock       - off    Print      - off    Textmerge  - off 
+Carry      - off    Cursor     - on     Fields     - off    Logerrors  - on     Readborder - off    Title      - off 
+
+
+
+

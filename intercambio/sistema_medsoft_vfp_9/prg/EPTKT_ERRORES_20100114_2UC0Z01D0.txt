@@ -1,0 +1,6 @@
+Estado de la impresora:
+Bit  8 Buffer impresora vacio
+Estado del controlador fiscal:
+Bit  5 Campo de Datos INVALIDO 
+Bit 10 El Impresor tiene Número de Serie(Certificado)
+Bit 16 OR de bits 0-8 da 1 

@@ -1,0 +1,194 @@
+
+Fecha            : 21/02/2022 03:10:03 AM
+Version          : Visual FoxPro 09.00.0000.5815 Biblioteca de soporte de EXE para Windows
+Nombre Archivo   : 21020310.EVF
+
+Error:
+       N£mero            :     9
+       Mensaje           : No coinciden los tipos de datos.
+       M¢dulo            : PROCEDURE ENTIDAD_IVA_VENT.LIQ_FINAL_04 
+       L¡nea             : 
+       N£mero L¡nea      :          0
+
+Memoria                  : 640 KB OR 655360 Bytes
+    Memoria Obje. Def.   : 6534808
+    Impresora Actual     : OFF
+    Directorio Actual    : \SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9
+
+Unidad Predeterminada    : C:
+     Tama¤o de la unidad : *,***,***,***
+           Espacio Libre : *,***,***,***
+  Carpeta predeterminado : \SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\
+  Carpeta de Arch. Temp. : C:\USERS\CHELO\APPDATA\LOCAL\TEMP
+
+------------------------------------------------------------------------------
+Valores actuales de las variables de entorno
+El procesador es Pentium
+Tabla seleccionada actualmente:
+Seleccione el área: 18, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90030.TMP    Alias: _69Q06S5ZS
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90030.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: STR(ALIC,5,2)+ITEMI
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 17, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9002R.TMP    Alias: _69Q06CBIO
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9002R.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 16, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9002M.TMP    Alias: _69Q06CABP
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9002M.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 15, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9002F.TMP    Alias: _69Q06C5O6
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9002F.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 14, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90027.TMP    Alias: _69Q06C46S
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90027.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 13, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90021.TMP    Alias: _69Q06C2IG
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90021.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 12, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9001P.TMP    Alias: _69Q054K53
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9001P.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 11, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9001G.TMP    Alias: _69Q04X6JV
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9001G.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área: 10, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9001B.TMP    Alias: _69Q04X2NP
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9001B.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  9, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\IVA_VENT_MAN.DBF    Alias: IVA_VENT_MAN
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\IVA_VENT_MAN.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: TIPO_COMP+SUCURSAL+NUMERO+STR(IVAI,11,2)+ITEM_NETO
+   Etiqueta de índice:   UNI          Ordenación: Machine    Clave: ACT_COD+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   UNI2         Ordenación: Machine    Clave: UNI
+      Bloqueos: <ninguno>
+
+Seleccione el área:  8, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90013.TMP    Alias: _69Q04WYA5
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G90013.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  6, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9000V.TMP    Alias: _69Q04WWQ5
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9000V.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  7, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\CONC_CTE.DBF    Alias: CONC_CTE
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\CONC_CTE.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: COD_INT Candidate
+   Etiqueta de índice:   DGI          Ordenación: Machine    Clave: COD_DGI
+      Bloqueos: <ninguno>
+
+Seleccione el área:  5, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9000O.TMP    Alias: _69Q04WV2O
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9000O.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: FECHA
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  4, Tabla en uso: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASE.DBF    Alias: PRESTASE
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\PRESTA\PRESTASE.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: IDLIQUIDA Candidate    Para: .NOT.DELETED()
+   Etiqueta de índice:   ALTAS        Ordenación: Machine    Clave: DTOS(F_ALTA)
+   Etiqueta de índice:   SOCIO        Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   COB          Ordenación: Machine    Clave: CO_NUM
+      Bloqueos: <ninguno>
+
+Seleccione el área:  2, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\A_CTACTE.DBF    Alias: A_CTACTE
+    Página de códigos:   1252
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\CTB\A_CTACTE.CDX
+   Etiqueta de índice:   ACTONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AIMONTSN     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   A_ANOMES     Ordenación: Machine    Clave: STR(ANO,4)+STR(MES,2)
+   Etiqueta de índice:   A_COMP       Ordenación: Machine    Clave: TIPO_COMP+SUCURSAL+NUMERO
+Etiqueta de índice principal:DIA          Ordenación: Machine    Clave: DTOS(EMIT_FECHA)+TIPO_COMP+SUCURSAL+NUMERO
+   Etiqueta de índice:   AC_INV       Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+TIPO_COMP+SUCURSAL+NUMERO    Para: saldo=0 (Descendente)
+   Etiqueta de índice:   COB          Ordenación: Machine    Clave: CO_NUM
+   Etiqueta de índice:   A_CTOFAC     Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO+STR(ANO,4)+STR(MES,2)+CONCEPTO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  3, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9000I.TMP    Alias: _69Q04WH9A
+    Página de códigos:   1252
+Archivo CDX estructural: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\0000B1G9000I.CDX
+Etiqueta de índice principal:COD          Ordenación: Machine    Clave: CODIGO
+   Etiqueta de índice:   NOM          Ordenación: Machine    Clave: NOMBRE
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  1, Tabla en uso: C:\MED_NEW_SMAUNSE\CTB\IVA_VENT.DBF    Alias: IVA_VENT
+    Página de códigos:   850
+      Bloqueos: <ninguno>
+
+Archivo alternativo: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\21020310.EVF
+Bibliotecas de clases: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES CONTROL\CONFIGURACION.VCX ALIAS CONFIGURACION, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES PADRES\CLASE PADRE.VCX ALIAS CLASE_PADRE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES PADRES\CONTROLES.VCX ALIAS CONTROLES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES ENTIDAD\ENTIDADES.VCX ALIAS ENTIDADES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\INGRESO_DE_COMPROBANTES_PRESTADORES.VCX ALIAS INGRESO_DE_COMPROBANTES_PRESTADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\FORMULARIOS.VCX ALIAS FORMULARIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PARAMETROS.VCX ALIAS PARAMETROS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\NOMENCLADORES.VCX ALIAS NOMENCLADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\SET_DE_UNIDADES.VCX ALIAS SET_DE_UNIDADES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MENUS&USUARIOS.VCX ALIAS MENUS_USUARIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MANTENIMIENTO_DE_TABLAS.VCX ALIAS MANTENIMIENTO_DE_TABLAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\LISTA_DE_PRECIOS.VCX ALIAS LISTA_DE_PRECIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PLANES&COBERTURAS.VCX ALIAS PLANES_COBERTURAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\AFILIADOS.VCX ALIAS AFILIADOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS.VCX ALIAS CONVENIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS_MED.VCX ALIAS CONVENIOS_MED, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS_PART.VCX ALIAS CONVENIOS_PART, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CARGA_PRESTACIONES.VCX ALIAS CARGA_PRESTACIONES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\AUTORIZACIONES.VCX ALIAS AUTORIZACIONES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\FACTURACION_CUOTAS.VCX ALIAS FACTURACION_CUOTAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PAGOS.VCX ALIAS PAGOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MIGRACIONES2.VCX ALIAS MIGRACIONES2, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PRESTADORES.VCX ALIAS PRESTADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PROVEEDORES.VCX ALIAS PROVEEDORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MEDICAMENTOS.VCX ALIAS MEDICAMENTOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\IVA.VCX ALIAS IVA, C:\PROGRAM FILES (X86)\MICROSOFT VISUAL FOXPRO 9\FFC\_REPORTLISTENER.VCX ALIAS _REPORTLISTENER, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MBANCO.VCX ALIAS MBANCO, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MCONTABLE.VCX ALIAS MCONTABLE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MTARJETAS.VCX ALIAS MTARJETAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MEXPEDIENTE.VCX ALIAS MEXPEDIENTE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CARGA_PRESTA_DELEGA.VCX ALIAS CARGA_PRESTA_DELEGA, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\TAREAS_PROCESANDO\GERMAN.VCX ALIAS GERMAN, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\TAREAS_PROCESANDO\MARCELO.VCX ALIAS MARCELO
+Ruta de búsqueda del archivo: 
+Directorio predeterminado: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9
+Dispositivo o archivo de impresión:  
+Área de trabajo      =   18
+Margen               =    0
+Decimales            =    3
+Ancho del campo memo =   50
+Escritura anticipada =   20
+Tamaño del bloque    =   64
+Reproceso            =       0
+Refresh              = 0, 5.000 SEGUNDOS
+Tiempo de espera DDE =    2000
+Seguridad DDE        = on
+
+Página de códigos: 1252
+Secuencia de ordenación: Machine
+Página de códigos del compilador: 1252
+Formato de fecha: British
+Tecla de método abreviado de macro = 
+Los parámetros de FDU se pasan por: REFERENCE
+Teclas de método abreviado de ON KEY LABEL:
+ESCAPE              ON KEY
+Opciones de combinación de texto
+          Delimitadores:  Izquierda = <<  Derecha = >>
+          Mostrar
+
+Alternate  - on     Century    - on     Deleted    - on     Fixed      - off    Mouse      - on     Safety     - off    Unique     - off 
+ANSI       - off    Clear      - on     Device     - pant   Fullpath   - on     Multilocks - off    Space      - on  
+Aserciones - off    Color      - on     Echo       - off    Heading    - on     Near       - off    Status Bar - off 
+Bell       - on     Compatible - off    Escape     - off    Help       - on     NULL       - off    Sysmenus   - on  
+Blink      - on     Confirm    - off    Exact      - off    Intensity  - on     Optimize   - on     Talk       - off 
+Brstatus   - off    Console    - off    Exclusive  - off    Lock       - off    Print      - off    Textmerge  - off 
+Carry      - off    Cursor     - on     Fields     - off    Logerrors  - on     Readborder - off    Title      - off 
+
+
+
+
+DLL declaradas:
+GetDC                                               C:\Windows\SYSTEM32\USER32.dll
+GetDeviceCaps                                       C:\Windows\SYSTEM32\GDI32.dll
+GetCursorPos              GetMousePointerPos        C:\Windows\SYSTEM32\USER32.dll
+ReleaseDC                                           C:\Windows\SYSTEM32\USER32.dll
+SetCursorPos              SetMousePointerPos        C:\Windows\SYSTEM32\USER32.dll
+
+

@@ -1,0 +1,271 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deftab708{\fonttbl{\f0\froman\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green0\blue127;\red127\green127\blue0;\red127\green0\blue0;\red0\green0\blue128;\red128\green128\blue0;\red128\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1503;}\viewkind4\uc1\pard{\pntext\f0 1)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pndec{\pntxta)}}
+\nowidctlpar\fi-360\li720\tx720\lang3082\f0\fs24 Observaciones encontradas en las pruebas realizadas:\par
+\pard\nowidctlpar\fi-360\li1440\tx1440\cf1 a.\tab\cf0 Migraci\'f3n:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf1 ii.a\cf2\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 g.\tab\cf3\b Facturaci\'f3n de cuotas SIS / adherentes UNSE:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf4\b0 i.\tab tanto en facturaci\'f3n provisoria como definitiva, verificar las observaciones por que salen como observados los facturados\cf3 , \cf4 los que tienene planes especiales vencidos\cf3 , \cf4 si la fecha hasta es menor que el date \endash  90 dias no informar como observaci\'f3n y los que salen facturados por primera vez tampoco. \cf3\b\par
+\cf0\b0\par
+\cf4 iv.En pre visualizacion de facturaci\'f3n, en totales al ultimo del listado, poder el total del PMIT en Otros para ser informado y faltar\'eda un total de IVA.\par
+-Correccion de archivos 310, 313.\par
+-Correccion lectura archivo 310.\par
+-CORECCION CARGA PLANILLA 309 POR LEGAJO\cf1\par
+\par
+\pard{\pntext\f0 1)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pndec{\pntxta)}}
+\fi-360\li720\tx720\cf4\b Rutina de facturaci\'f3n de cuotas INHABILITACIONES:\cf3\par
+\pard\li360\tx720\par
+\tab\tab -\cf4 CAUSA DE INHABILITACION AUTOMATICA CORREGIDA\par
+\cf3\par
+\pard{\*\pn\pnlvlcont\pnf0\pnindent0\pnstart1\pndec }
+\fi-360\li1440\tx1440\cf4 a.\tab En planes, se debe tildar una opci\'f3n de inhabilitar por mora (SI/NO) por cada plan, de manera tal que existan planes en donde no se inhabilita por mora y otros planes en donde si se inhabilita por mora:\par
+\pard{\pntext\f0 1)\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta)}}
+\fi-360\li1440\tx1440 b.\tab Solo se inhabilita por mora en los planes SIS.\cf3\par
+{\pntext\f0 2)\tab}\par
+\cf5{\pntext\f0 3)\tab}c.\tab Se deben inhabilitar por mora los afiliados que deban dos cuotas y se factura la tercera, en ese caso se inhabilita, debiendo poner en estado suspendido.\par
+{\pntext\f0 4)\tab}d.\tab Los topes m\'e1ximos por edad de hijos es hasta los 26 a\'f1os tanto para el var\'f3n como para la mujer. \par
+{\pntext\f0 5)\tab}e.\tab Los afiliados Estudiantes tienen hasta los 26 a\'f1os, luego quedan inhabilitados.\cf3\par
+{\pntext\f0 6)\tab}f.\tab\cf4 Los afiliados que poseen planes especiales, y tengan la mayor\'eda de edad, deben salir en observaciones al momento de facturar solo si el plan vencio dentro de los 90 dias del date de facturacion, pero no los debe inhabilitar autom\'e1ticamente, ya que dependen de un dictamen m\'e9dico y los mismos deber\'e1n se inhabilitados por el operador exclusivamente.\cf3\par
+{\pntext\f0 7)\tab}g.\cf4 No informar en observaciones de facturaci\'f3n los que posean planes especiales vencidos.\cf3\par
+\pard\par
+\par
+\pard{\pntext\f0 2)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pndec{\pntxta)}}
+\fi-360\li720\tx720\cf4 Presentaci\'f3n a SUMAS de afiliados UNSE / SMAUNSE / SIS:\par
+\pard{\*\pn\pnlvlcont\pnf0\pnindent0\pnstart1\pndec }
+\fi-360\li1440\tx1440 h.\tab Esto se hace mediante un programa nuevo que leyendo el padr\'f3n de afiliados, genera un TXT denominado SUMAMMAA.txt en donde se deja el formato actual como ejemplo en donde se informa los adherentes (SIS y adherentes de otros tipos, los jubilados y los Obligados) que tengan estado de afiliados ACTIVO y en el campo SUMAS tengan una \ldblquote S\rdblquote  de si. Te tiene que dar mas o menos 4.066 afiliados. + -\par
+\pard\li1416 Los campos del txt son:\par
+\ldblquote SDE  \ldblquote  (cinco digitos)\par
+Nroafiliados \endash  (seis digitos)\par
+\ldblquote /\rdblquote  \endash  barra\par
+Familiar \endash  (dos digitos)\par
+Nomnre y Apellido (35 digitos)\par
+Tipo doc \endash  2 digitos\par
+Nro doc \endash  (8 digitos)\par
+Sexo \endash  Un digito M/F\par
+Edad \endash  3 digitos\par
+Tipo \endash  3 digitos (OBL=Obligado UNSE ,ADH \endash  Adh ,JUB - Jubilado)\par
+El archivo a generar , dejo modelo como suma0808.txt en el directorio German en Pedro \\archivos.\cf3\par
+\par
+\pard{\pntext\f0 3)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pndec{\pntxta)}}
+\fi-360\li720\tx720 Presentaci\'f3n a SEM (Servicio Emergencia Medica) del padr\'f3n:\par
+\pard{\*\pn\pnlvlcont\pnf0\pnindent0\pnstart1\pndec }
+\fi-360\li1440\tx1440 i.\tab Se genera una vez al mes por el operador y solo se informan los que poseen la variable PEMYT = \ldblquote S\rdblquote  y est\'e1n Activos.\par
+j.\tab El archivo a generar es un DBF y se denomina SMAUNSE.DBF que dejo en el directorio German en Pedro \\ Archivos.\par
+k.\tab Generar para poder comparar los informados.\par
+\pard\par
+\pard\fi708 4) Consultas de Cuentas Corrientes:\par
+\pard\nowidctlpar\fi-360\li1440\tx1440\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf4 i.Anulacion de comprobantes: la anulacion funciona bien, pero luego de anular los comprobantes siguen saliendo en comprobantes emitidos, debiendo informar en dicho listado los que estan anulados con la leyenda anulado y en importes se debe informar en cero.\cf3\par
+\cf4 iv. En listado de comprobantes emitidos(9), se debe solicitar el tipo de comprobante que se quiere listar, ya que como tenemos cupon de cuotas y al pagar se emite la factura, saldrian los dos comprobantes emitidos y no podemos ver en definitiva los comprobantes realies que son las facturas. Lo optimo ser\'eda al igual que planes en este listado, poder seleccionar los comprobantes que pretendemos listar, asi podemos listar solo facturas o provisorios cuotas, (los comprobantes a seleccionar deber\'edan ser los que indican entipo de comprobantes como imputables.\line\cf3\par
+\pard{\pntext\f0 4\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pndec }
+\nowidctlpar\fi-360\li2340\tx2160\tx2340\cf4 En listado de comprobantes pendientes de pago: Se deber\'eda tener que seleccionar plan para el uso de ver deuda de afiliados SIS o SMAUNSE y tambien ser\'eda l\'f3gico poder filtrar conceptos de los comprobantes (Cuota SIS, Adherentes, etc) \endash  Agregar a la cabecera los que se selecciona para listar.\cf3\line\par
+\pard{\pntext\f0 5\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart5\pndec }
+\nowidctlpar\fi-360\li2340\tx2160\tx2340\cf4 En resumen de deuda por cantidad (Idem al anterior)\cf3\line\par
+\pard{\pntext\f0 6\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart6\pndec }
+\nowidctlpar\fi-360\li2340\tx2160\tx2340\cf4 Libro IVA VENTAS: solo deben salir informados los comprobantes que en tipo de comprobantes tengan tildada la opcion de informa en LIBRO IVA VENTAS, por que los comprobantes a ser informados son los ticket o facturas emitidas y no los cupones de cuotas, en este libro solo deben salir los que tengan la opcion en tipo de comprobantes Informa en IVA VENTAS y\cf3  en el de compras solo los que indique INFORMA IVA COMPRAS.\par
+\pard\nowidctlpar\li1980\tx2160\tx2340\par
+1) Abm afiliados:\cf4\par
+    A) bloquear la funcion de consumo detallado para que no lo puedan ver.\cf3\par
+    \par
+2) Listados de afiliados: \par
+ \cf4    A) agregar una grilla que muestre las categorias para tildar las que se quieren\par
+ listar y las que no como estan las grillas de tipos de comprobantes (que hiciste los\par
+ otros dias  en el listado de comprobantes emitidos).\cf3\par
+\cf4   B) en totales del final del listado, agregar total por sexos en titulares y en familiares\cf3\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\tab\par
+\pard\nowidctlpar\li1080\tx1440\par
+\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab A\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 6).\tab Par\'e1metros\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf4 i.\tab Tipos de comprobantes: cambiar el texto en comprobantes de afilaidos  en donde dice IVA Compras que diga IVA VENTAS.\cf3\par
+ii.\par
+\pard\nowidctlpar\tx2160           7) \cf4 Nota de cr\'e9dito a comp. de cuentas corrientes que no sean de  autorizaciones:\par
+\cf3\tab\par
+\pard\nowidctlpar\li708\tx2160\cf4 Emite la nota de cr\'e9dito pero no descuenta el saldo al comprobante al cual esta imputado. Ojo el que debe dejar el saldo es la Nota de Debito, esta si deja intacto el saldo del comprobante al cual se imputa\cf3 .\par
+\par
+\cf5 No permite hacer la Nota de Debito que funciona como una factura mas pero imputa a una factura y el importe no puede ser mayor que el comprobante al cual se imputa.\par
+\par
+\par
+\cf6 PENDIENTES\par
+\cf5\line\cf3 -REVISAR SI HACE FALTA AGREGAR CAMPOS EN LISTADOS ANTERIORES\par
+\par
+\cf6 -IMPUTAR CUPONES? TIPO NC??\par
+\par
+\cf3 -Facturaci\'f3n de Texto: TICKET MANUAL? FACTURA MANUAL CON IMPRESION???\par
+\par
+-LISTADO Compras solo los que indique INFORMA IVA COMPRAS\par
+\par
+\pard\nowidctlpar\tx2160\par
+\pard\nowidctlpar\cf0\b0\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+Correcciones realizadas:\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 .\tab En el help de localidades al modificar un afiliado la localidad de una provincia Santiago del estero, zona santiago del estero, al buscar localidades por nombre no se posicionan la clave buscada. 20/08/2008\par
+\pard\nowidctlpar\li1416 (busqueda de localidades 5001)\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 b.\tab La misma busqueda pero en el campo barrio si me permite buscar por nombre (busqueda de barrios 5001)\par
+c.\tab Lo mismo pasa en localidad en datos de facturaci\'f3n.\par
+d.\tab Al querer grabar el legajo en un afiliado, me da el error 20081614.evf\par
+e.\tab Falta migrar bancos, tarjetas de creditos, motivos de inhabilitaci\'f3n. \endash  ok pedro\par
+f.\tab Migraci\'f3n:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Familiares con estudiante = verdadero y fecha hasta 2008, a\'f1o lectivo = 2008 en base de afiliados.\par
+ii.\tab Los afiliados que estan de baja, se debe migrar el campo motivo1 al campo motivo de inhabilitaci\'f3n o causa de inhabilitaci\'f3n.\par
+iii.En cuenta corrientes, verificar el concepto que muestra en consultas de cuentas corrientes con el que paso en la migraci\'f3n en el a_ctacte. AGREGADO CONCEPTO POR TIPO AFILIACION\par
+\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 g.\tab Facturaci\'f3n de cuotas SIS:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Los afiliados que poseen una cuota sin ser facturada, por ejemplo af 1085 ult per. Fac. 6/2008 y 1183 ult. Per. Fac. 06/08, me salen observados en la previsualizacion de facturadion del mes 8 com que no pueden ser facturados. Al querer facturarles el mes 7 a los dos afiliados solos, me sale en observaciones que no puede farcturarle dos veces el mes 7 cuando en ult_pago tiene el 6 y no tiene factura por el mes 7, si bien le emite la factura. (corregir las observaciones. En proceso de facturaci\'f3n.\par
+\par
+ii.\tab Al generar la factura definitiva, en cuentas corrientes, en el campo concepto, sale 00, debiendo salir el concepto cuota Sis que deber\'eda ser sacado de par\'e1metros el c\'f3digo del concepto.\par
+iii.En pre visualizaci\'f3n / imprime observaciones, falta en la cabecera los par\'e1metros que si salen en pre visualizaci\'f3n de la facturaci\'f3n (plan, periodo, etc)\par
+iv.En pre visualizacion de facturaci\'f3n, en totales al ultimo del listado, poder el total del PMIT en Otros para ser informado y faltar\'eda un total de IVA.\par
+\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 h.\tab Consultas de Cuentas Corrientes:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Al consultar una cuenta corriente, en previsualizacion por pantalla, falta infirmar el imputado (sobre todo los pagos) y faltaria mostrar el concepto de cada comprobante.\par
+ii.\tab Los subtotales estan bien el debe y el haber pero no el saldo al final de hoja, debe ser el resultante en + o en \endash  del debe menos el haber y ese saldo debe ser igual al saldo mostrado en todas las consultas de cuentas corrientes.\par
+iii.En consultas de cuentas corrientes por pantalla, no muestra el imputado a, debiendo informarlo.\par
+iv.En consulta de cuentas corrietntes sale mal la descripci\'f3n de los conceptos.\par
+v.\tab Al consultas cuota y saldo, muestra mal el texto \ldblquote  de ultimo periodo pago y en realidad es la fecha del ultimo pago, cambiar el texto de la pantalla.\par
+vi.\tab\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 i.\tab Configuraci\'f3n General:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Lotes / arancel por defecto se va del sistema.\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 j.\tab Par\'e1metros\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Bancos: cuando ingreso queda buscando localidades a lo loco y no logra entrar, verificar la rutina de localidades, zonas y provincia.\par
+ii.\tab\par
+\pard\nowidctlpar\par
+\par
+\pard{\pntext\f0 2)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pndec{\pntxta)}}
+\nowidctlpar\fi-360\li720\tx720 Observaciones encontradas en las pruebas realizadas:\par
+\pard\nowidctlpar\fi-360\li1440\tx1440\cf1 a.\tab\cf0\par
+f.\tab Migraci\'f3n:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf1 ii.a\cf2\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 g.\tab Facturaci\'f3n de cuotas SIS:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Los afiliados que poseen una cuota sin ser facturada, por ejemplo af 1085 ult per. Fac. 6/2008 y 1183 ult. Per. Fac. 06/08, me salen observados en la previsualizacion de facturadion del mes 8 com que no pueden ser facturados. Al querer facturarles el mes 7 a los dos afiliados solos, me sale en observaciones que no puede farcturarle dos veces el mes 7 cuando en ult_pago tiene el 6 y no tiene factura por el mes 7, si bien le emite la factura. (corregir las observaciones. En proceso de facturaci\'f3n.\cf0\par
+\par
+\cf1 ii.\tab Al generar la factura definitiva, en cuentas corrientes, en el campo concepto, sale 00, debiendo salir el concepto cuota Sis que deber\'eda ser sacado de par\'e1metros el c\'f3digo del concepto.\cf0\par
+\cf1 iv.En pre visualizacion de facturaci\'f3n, en totales al ultimo del listado, poder el total del PMIT en Otros para ser informado y faltar\'eda un total de IVA.\par
+\cf0\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 h.\tab Consultas de Cuentas Corrientes:\par
+\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf1 i.Anulacion de comprobantes: la anulacion funciona bien, pero luego de anular los comprobantes siguen saliendo en comprobantes emitidos, debiendo informar en dicho listado los que estan anulados con la leyenda anulado y en importes se debe informar en cero.\par
+\par
+\cf4 iv. En listado de comprobantes emitidos(9), se debe solicitar el tipo de comprobante que se quiere listar, ya que como tenemos cupon de cuotas y al pagar se emite la factura, saldrian los dos comprobantes emitidos y no podemos ver en definitiva los comprobantes realies que son las facturas. Lo optimo ser\'eda al igual que planes en este listado, poder seleccionar los comprobantes que pretendemos listar, asi podemos listar solo facturas o provisorios cuotas, (los comprobantes a seleccionar deber\'edan ser los que indican entipo de comprobantes como imputables.\par
+\cf0\par
+\pard{\pntext\f0 7\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart7\pndec }
+\nowidctlpar\fi-360\li2340\tx2160\tx2340 En listado de comprobantes pendientes de pago: Se deber\'ed tener que seleccionar plan para el uso de ver deuda de afiliados SIS o SMAUNSE y tambien ser\'eda l\'f3gico poder filtrar conceptos de los comprobantes (Cuota SIS, Adherentes, etc) \endash  Agregar a la cabecera los que se selecciona para listar.\par
+\pard{\pntext\f0 8\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart8\pndec }
+\nowidctlpar\fi-360\li2340\tx2160\tx2340 En resumen de deuda por cantidad (Idem al anterior)\par
+\pard{\pntext\f0 9\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart9\pndec }
+\nowidctlpar\fi-360\li2340\tx2160\tx2340 Libro IVA VENTAS: solo deben salir informados los comprobantes que en tipo de comprobantes tengan tildada la opcion de informa en LIBRO IVA VENTAS, por que los comprobantes a ser informados son los ticket o facturas emitidas y no los cupones de cuotas, en este libro solo deben salir los que tengan la opcion en tipo de comprobantes Informa en IVA VENTAS y en el de compras solo los que indique INFORMA IVA COMPRAS: \par
+\pard\nowidctlpar\fi-180\li2160\tx2160\tab\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 i.   facturaci\'f3n de Texto: se va del sistema con el error 25081154,evf verificar.\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf1 i.\tab A\par
+\pard\nowidctlpar\fi-360\li1440\tx1440\cf0 j.\tab Par\'e1metros\par
+\pard\nowidctlpar\fi-180\li2160\tx2160\cf1 i.\tab Tipos de comprobantes: cambiar el texto en comprobantes de afilaidos  en donde dice IVA Compras que diga IVA VENTAS.\par
+\cf0 ii.\tab\par
+\pard\nowidctlpar\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+Correcciones realizadas:\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 .\tab En el help de localidades al modificar un afiliado la localidad de una provincia Santiago del estero, zona santiago del estero, al buscar localidades por nombre no se posicionan la clave buscada. 20/08/2008\par
+\pard\nowidctlpar\li1416 (busqueda de localidades 5001)\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 b.\tab La misma busqueda pero en el campo barrio si me permite buscar por nombre (busqueda de barrios 5001)\par
+c.\tab Lo mismo pasa en localidad en datos de facturaci\'f3n.\par
+d.\tab Al querer grabar el legajo en un afiliado, me da el error 20081614.evf\par
+e.\tab Falta migrar bancos, tarjetas de creditos, motivos de inhabilitaci\'f3n. \endash  ok pedro\par
+f.\tab Migraci\'f3n:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Familiares con estudiante = verdadero y fecha hasta 2008, a\'f1o lectivo = 2008 en base de afiliados.\par
+ii.\tab Los afiliados que estan de baja, se debe migrar el campo motivo1 al campo motivo de inhabilitaci\'f3n o causa de inhabilitaci\'f3n.\par
+iii.En cuenta corrientes, verificar el concepto que muestra en consultas de cuentas corrientes con el que paso en la migraci\'f3n en el a_ctacte. AGREGADO CONCEPTO POR TIPO AFILIACION\par
+\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 g.\tab Facturaci\'f3n de cuotas SIS:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Los afiliados que poseen una cuota sin ser facturada, por ejemplo af 1085 ult per. Fac. 6/2008 y 1183 ult. Per. Fac. 06/08, me salen observados en la previsualizacion de facturadion del mes 8 com que no pueden ser facturados. Al querer facturarles el mes 7 a los dos afiliados solos, me sale en observaciones que no puede farcturarle dos veces el mes 7 cuando en ult_pago tiene el 6 y no tiene factura por el mes 7, si bien le emite la factura. (corregir las observaciones. En proceso de facturaci\'f3n.\par
+\par
+ii.\tab Al generar la factura definitiva, en cuentas corrientes, en el campo concepto, sale 00, debiendo salir el concepto cuota Sis que deber\'eda ser sacado de par\'e1metros el c\'f3digo del concepto.\par
+iii.En pre visualizaci\'f3n / imprime observaciones, falta en la cabecera los par\'e1metros que si salen en pre visualizaci\'f3n de la facturaci\'f3n (plan, periodo, etc)\par
+iv.En pre visualizacion de facturaci\'f3n, en totales al ultimo del listado, poder el total del PMIT en Otros para ser informado y faltar\'eda un total de IVA.\par
+\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 h.\tab Consultas de Cuentas Corrientes:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Al consultar una cuenta corriente, en previsualizacion por pantalla, falta infirmar el imputado (sobre todo los pagos) y faltaria mostrar el concepto de cada comprobante.\par
+ii.\tab Los subtotales estan bien el debe y el haber pero no el saldo al final de hoja, debe ser el resultante en + o en \endash  del debe menos el haber y ese saldo debe ser igual al saldo mostrado en todas las consultas de cuentas corrientes.\par
+iii.En consultas de cuentas corrientes por pantalla, no muestra el imputado a, debiendo informarlo.\par
+iv.En consulta de cuentas corrietntes sale mal la descripci\'f3n de los conceptos.\par
+v.\tab Al consultas cuota y saldo, muestra mal el texto \ldblquote  de ultimo periodo pago y en realidad es la fecha del ultimo pago, cambiar el texto de la pantalla.\par
+vi.\tab\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 i.\tab Configuraci\'f3n General:\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Lotes / arancel por defecto se va del sistema.\par
+\pard\nowidctlpar\fi-360\li1440\tx1440 j.\tab Par\'e1metros\par
+\pard\nowidctlpar\fi-180\li2160\tx2160 i.\tab Bancos: cuando ingreso queda buscando localidades a lo loco y no logra entrar, verificar la rutina de localidades, zonas y provincia.\par
+ii.\tab\par
+\pard\nowidctlpar\par
+\par
+}
+ 

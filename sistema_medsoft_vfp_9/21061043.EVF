@@ -1,0 +1,119 @@
+
+Fecha            : 21/06/2022 10:43:07 AM
+Version          : Visual FoxPro 09.00.0000.5815 Biblioteca de soporte de EXE para Windows
+Nombre Archivo   : 21061043.EVF
+
+Error:
+       N£mero            :     9
+       Mensaje           : No coinciden los tipos de datos.
+       M¢dulo            : PROCEDURE MENSAJE.INIT 
+       L¡nea             : 
+       N£mero L¡nea      :          0
+
+Memoria                  : 640 KB OR 655360 Bytes
+    Memoria Obje. Def.   : 5136904
+    Impresora Actual     : OFF
+    Directorio Actual    : \SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9
+
+Unidad Predeterminada    : C:
+     Tama¤o de la unidad : *,***,***,***
+           Espacio Libre : *,***,***,***
+  Carpeta predeterminado : \SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\
+  Carpeta de Arch. Temp. : C:\USERS\CHELO\APPDATA\LOCAL\TEMP
+
+------------------------------------------------------------------------------
+Valores actuales de las variables de entorno
+El procesador es Pentium
+Seleccione el área:  6, Tabla en uso: C:\MED_NEW_SMAUNSE\HELP\T_AFILIA.DBF    Alias: T_AFILIA
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\HELP\T_AFILIA.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: CODIGO
+      Bloqueos: <ninguno>
+
+Seleccione el área:  5, Tabla en uso: C:\MED_NEW_SMAUNSE\HELP\FAMILIAR.DBF    Alias: FAMILIAR
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\HELP\FAMILIAR.CDX
+Etiqueta de índice principal:CLAVE        Ordenación: Machine    Clave: CODIGO+O_SOCIAL
+      Bloqueos: <ninguno>
+
+Seleccione el área:  4, Tabla en uso: C:\MED_NEW_SMAUNSE\DBF\AFIL_FAC.DBF    Alias: AFIL_FAC
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\DBF\AFIL_FAC.CDX
+Etiqueta de índice principal:PRINCIPAL    Ordenación: Machine    Clave: O_SOCIAL+A_NUMERO
+   Etiqueta de índice:   LEG          Ordenación: Machine    Clave: PADL(ALLTRIM(LEGAJO),15,"0")
+   Etiqueta de índice:   AFIDTO       Ordenación: Machine    Clave: AFI_DTO
+      Bloqueos: <ninguno>
+
+Tabla seleccionada actualmente:
+Seleccione el área:  2, Tabla en uso: C:\USERS\CHELO\APPDATA\LOCAL\TEMP\000096AH000I.TMP    Alias: HAMBURGO
+    Página de códigos:   1252
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  3, Tabla en uso: C:\MED_NEW_SMAUNSE\HELP\O_SOCIAL.DBF    Alias: O_SOCIAL
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\HELP\O_SOCIAL.CDX
+Etiqueta de índice principal:OSOCCOD      Ordenación: Machine    Clave: CODIGO
+   Etiqueta de índice:   OSOCNOM      Ordenación: Machine    Clave: NOMBRE
+   Etiqueta de índice:   CUIT         Ordenación: Machine    Clave: NRO_IVA
+         Archivo memo:   C:\MED_NEW_SMAUNSE\HELP\O_SOCIAL.FPT
+      Bloqueos: <ninguno>
+
+Seleccione el área:  1, Tabla en uso: C:\MED_NEW_SMAUNSE\DBF\AFILIADO.DBF    Alias: AFILIADO
+    Página de códigos:   850
+Archivo CDX estructural: C:\MED_NEW_SMAUNSE\DBF\AFILIADO.CDX
+   Etiqueta de índice:   AFINUM       Ordenación: Machine    Clave: A_NUMERO
+   Etiqueta de índice:   AFINOM       Ordenación: Machine    Clave: NOMBRE
+Etiqueta de índice principal:AFIONUM      Ordenación: Machine    Clave: ALLTRIM(O_SOCIAL)+PADL(ALLTRIM(A_NUMERO),15,"0")+ALLTRIM(FAMILIAR)
+   Etiqueta de índice:   AFIONOM      Ordenación: Machine    Clave: O_SOCIAL+NOMBRE
+   Etiqueta de índice:   AFIENUM      Ordenación: Machine    Clave: O_SOCIAL+EMPRESA+A_NUMERO
+   Etiqueta de índice:   AFIENOM      Ordenación: Machine    Clave: O_SOCIAL+EMPRESA+NOMBRE
+   Etiqueta de índice:   AFIEPLN      Ordenación: Machine    Clave: O_SOCIAL+EMPRESA+PLAN
+   Etiqueta de índice:   AFIPLNR      Ordenación: Machine    Clave: O_SOCIAL+PLAN+A_NUMERO
+   Etiqueta de índice:   AFIDNI       Ordenación: Machine    Clave: O_SOCIAL+D_NRO
+   Etiqueta de índice:   CUIL         Ordenación: Machine    Clave: D_NRO
+         Archivo memo:   C:\MED_NEW_SMAUNSE\DBF\AFILIADO.FPT
+      Bloqueos: <ninguno>
+
+Archivo alternativo: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\21061043.EVF
+Bibliotecas de clases: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES CONTROL\CONFIGURACION.VCX ALIAS CONFIGURACION, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES PADRES\CLASE PADRE.VCX ALIAS CLASE_PADRE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES PADRES\CONTROLES.VCX ALIAS CONTROLES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES ENTIDAD\ENTIDADES.VCX ALIAS ENTIDADES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\INGRESO_DE_COMPROBANTES_PRESTADORES.VCX ALIAS INGRESO_DE_COMPROBANTES_PRESTADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\FORMULARIOS.VCX ALIAS FORMULARIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PARAMETROS.VCX ALIAS PARAMETROS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\NOMENCLADORES.VCX ALIAS NOMENCLADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\SET_DE_UNIDADES.VCX ALIAS SET_DE_UNIDADES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MENUS&USUARIOS.VCX ALIAS MENUS_USUARIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MANTENIMIENTO_DE_TABLAS.VCX ALIAS MANTENIMIENTO_DE_TABLAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\LISTA_DE_PRECIOS.VCX ALIAS LISTA_DE_PRECIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PLANES&COBERTURAS.VCX ALIAS PLANES_COBERTURAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\AFILIADOS.VCX ALIAS AFILIADOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS.VCX ALIAS CONVENIOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS_MED.VCX ALIAS CONVENIOS_MED, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CONVENIOS_PART.VCX ALIAS CONVENIOS_PART, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CARGA_PRESTACIONES.VCX ALIAS CARGA_PRESTACIONES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\AUTORIZACIONES.VCX ALIAS AUTORIZACIONES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\FACTURACION_CUOTAS.VCX ALIAS FACTURACION_CUOTAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PAGOS.VCX ALIAS PAGOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MIGRACIONES2.VCX ALIAS MIGRACIONES2, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PRESTADORES.VCX ALIAS PRESTADORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\PROVEEDORES.VCX ALIAS PROVEEDORES, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MEDICAMENTOS.VCX ALIAS MEDICAMENTOS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\IVA.VCX ALIAS IVA, C:\PROGRAM FILES (X86)\MICROSOFT VISUAL FOXPRO 9\FFC\_REPORTLISTENER.VCX ALIAS _REPORTLISTENER, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MBANCO.VCX ALIAS MBANCO, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MCONTABLE.VCX ALIAS MCONTABLE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MTARJETAS.VCX ALIAS MTARJETAS, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\MEXPEDIENTE.VCX ALIAS MEXPEDIENTE, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\CLASES FORMULARIO\CARGA_PRESTA_DELEGA.VCX ALIAS CARGA_PRESTA_DELEGA, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\TAREAS_PROCESANDO\GERMAN.VCX ALIAS GERMAN, C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9\TAREAS_PROCESANDO\MARCELO.VCX ALIAS MARCELO
+Ruta de búsqueda del archivo: 
+Directorio predeterminado: C:\SISTEMAS\MEGASISTEMA\SMAUNSE\SISTEMA_MEDSOFT_VFP_9
+Dispositivo o archivo de impresión:  
+Área de trabajo      =    2
+Margen               =    0
+Decimales            =    3
+Ancho del campo memo =   50
+Escritura anticipada =   20
+Tamaño del bloque    =   64
+Reproceso            =       0
+Refresh              = 0, 5.000 SEGUNDOS
+Tiempo de espera DDE =    2000
+Seguridad DDE        = on
+
+Página de códigos: 1252
+Secuencia de ordenación: Machine
+Página de códigos del compilador: 1252
+Formato de fecha: British
+Tecla de método abreviado de macro = 
+Los parámetros de FDU se pasan por: REFERENCE
+Teclas de método abreviado de ON KEY LABEL:
+ESCAPE              ON KEY
+Opciones de combinación de texto
+          Delimitadores:  Izquierda = <<  Derecha = >>
+          Mostrar
+
+Alternate  - on     Confirm    - off    Fullpath   - on     Print      - off 
+ANSI       - off    Console    - off    Heading    - on     Readborder - off 
+Aserciones - off    Cursor     - on     Help       - on     Safety     - off 
+Bell       - on     Deleted    - on     Intensity  - on     Space      - on  
+Blink      - on     Device     - pant   Lock       - off    Status Bar - off 
+Brstatus   - off    Echo       - off    Logerrors  - on     Sysmenus   - off 
+Carry      - off    Escape     - off    Mouse      - on     Talk       - off 
+Century    - on     Exact      - off    Multilocks - off    Textmerge  - off 
+Clear      - on     Exclusive  - off    Near       - off    Title      - off 
+Color      - on     Fields     - off    NULL       - off    Unique     - off 
+Compatible - off    Fixed      - off    Optimize   - on  
+
+
+
+

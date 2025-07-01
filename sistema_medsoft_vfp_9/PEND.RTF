@@ -1,0 +1,205 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\froman\fprq2\fcharset2 Symbol;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fnil\fcharset0 MS Shell Dlg;}{\f3\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f4\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue128;\red153\green51\blue0;\red128\green0\blue0;\red0\green0\blue0;\red127\green0\blue0;\red128\green128\blue0;\red0\green0\blue127;}
+{\*\generator Msftedit 5.41.15.1503;}\viewkind4\uc1\pard\fi-360\li720\tx720\cf1\f0\fs24\'b7\tab\b\f1 Jimena necesita urgente tilde en carga de internaciones para cobro de coseguro.\cf2\par
+\pard\fi-360\li720\cf1\b0\f0\'b7\tab\b\f1 Que por defecto ya este tildada la opcion para cobro de coseguro.\cf2\par
+\cf1\b0\f0\'b7\tab\b\f1 Dra. Reyes solicito estadistica para ver producci\'f3n de sus odontologos.\cf2\par
+\cf1\b0\f0\'b7\tab\b\f1 Ver que en la carga avise que una orden fue autorizada pero no cobrada si tiene coseguro a cargo del afiliado. (Dra. Reyes detecto 4 ordenes en esa situaci\'f3n)\cf2\par
+\cf1\b0\f0\'b7\tab\b\f1 Listado de saldos por concepto de descuentos\cf2\par
+\pard\par
+\par
+\cf1 DETALLES\par
+\pard\fi-360\li720\tx720\b0\f0\'b7\tab\b\f1 listado de afiliados, si yo marco un tipo de afiliaci\'f3n, luego que lo desmarco y quiero todos, ya siempre me saca el ultimo tipo de afiliaci\'f3n, tengo que salir y volver a entrar al listado para sacar todos.\cf2\par
+\pard\nowidctlpar\cf3\fs28\par
+\par
+-RESUMEN DE INGRESOS TOTAL de EFECTIVO Y DESCUENTO EN NC TOTALIZAR y restar del total de efectivo y a Descuento.\cf1\par
+\pard\li277\ri18\tx720\par
+-\cf3\fs24 el tema del AFIL, el campo FACTURAR, que tendrian T o F va con F cuando no se puede elegir para descuento a ese afiliado en la farmacia, y ademas..., le agregan un dato de hasta cuando no se podria, que esta en el FEC_ESTADO\cf1\fs28\par
+\pard\nowidctlpar\par
+\cf3 -Error si no esta definido el convenio del prestador en carga de prestaciones.\cf1\par
+\par
+\cf3 -ENTIDAD CON COBRO DE COSEGURO DEL AFILIADO CALCULAR EN CARGA DE PRESTACIONES MANUAL.\line\line -CARGA PRESTACIONES DE INTERNACION.\par
+\par
+PROCESO DE FACTURACION DEFINIR PEMIT POR TIPO DE AFILIACON EN VEZ DE  P_PLAN.\par
+\par
+-Tipo de reintegro en listado y total por monto parcial forzado?\par
+\par
+-Otro Reintegro de coseguro.\par
+\par
+-PRORROGA DE PROTOCOLO error en consulta de protocolo.\cf1\par
+\par
+\cf3 -Derivaciones grupo familiar parcial.\par
+\par
+-CONSUMO POR PANTALLA IDENTIFICAR ANULADOS\par
+\par
+\cf1 -Padron de Farmacia exportar solo ACTIVOS.\cf3\par
+\cf1\par
+\b0\f2 -nomenclador nivelcol.dbf que tiene los campos nivel_cole y nivel_urol para actualizar el el nomenclador de prestaciones esos dos campos por que estan llenos de basura lee este archivo por el campo x_codigo que es el codigo de la practica y en todos los nomencladores ponele a los campos nivel_cole y nivel_urol el valor que esta en este archivo\cf3\par
+\par
+\cf1 -corregir las autorizaciones del sistema viejo los campos diagnostico='OMS99Z' , prescriptor='D02584' y especialidad='CM'\cf3\par
+\par
+\cf1 -asigne especialidad automaticamente en autorizaciones l cargar el prescriptor\cf3\par
+\par
+-ASIGNAR CONCEPTO EN DTOENCUO DE COSEGURO\cf4\fs20\par
+\cf1\b\f1\fs28\par
+-CORRECION DE ENVIO A DESCUENTO MES ANTERIOR.\par
+\par
+-COBRANZA DE AUTORIZACIONES DETALLADA POR TIPO DE ORDEN.\par
+\par
+-ESPECIFICAR COMPROBANTES EN DETALLE DE MOVIMIENTOS DE CAJA.\par
+\par
+-CONSULTA CAMPOS PARA ESCRIBIR BENEFICIARIO\par
+\par
+-NUMERO DE AFI EN TICKET\par
+\par
+-QUITAR REDONDEO\par
+\par
+-Error en busqueda de precio codigo Oncologia. Correccion de precios de planes especiales\par
+\par
+-Cobranza autorizaciones tildar todos.\par
+\par
+-BUSQUEDA DE PRACTICA POR NOMBRE.\par
+\cf3\par
+\cf1 -AGREGAR TOTAL ARANCELADO.\par
+\par
+-COBRO CREDENCIAL.(510101)\par
+\par
+---------------------------------\par
+-CONTROL DE CODIGOS POR ORDEN RESETEAR AL GRABAR.\cf3\par
+\par
+\cf1 -CONSULTA DE CONSUMO POR PANTALLA(AUT y PROT)\par
+\par
+-CORRECIONES DE CAMPOS EXTRA EN ODONTOLOGIA... \par
+quitar diagnostico.\par
+\par
+-error de busqueda de codigo PRESTACION\par
+-------------------------------\par
+\cf3\par
+\cf1 -CARGA DE REINTEGROS PENDIENTES.\par
+\par
+-CONTROL DE BLOQUEO DE DESCUENTO POR PLANILLA\par
+\par
+PLAN PARTO EN REINTEGROS Y ODONTOLOGIA\par
+\par
+CONTADOR DE CONSUMO AUTORIZACION NO CONTAR ANULADAS.\par
+--------------------------\par
+\par
+\cf5\par
+-Derivaciones \par
+\par
+-autorizaciones de medicamentos a oncol\'f3gicos, cargar un vadem\'e9cum completo para que puedan registrar tanto en internaciones como en ambulatorio, la entrega de medicamentos de la farmacia para que retire el afiliado con un bonito (llevo modelo)\par
+-Registrar en otra base que no sea autorizaciones pero con un  formato igual o parecido para que quede registrado los medicamentos que el afiliado ha retirado.\par
+\par
+La base en donde estan en el sistema viejo es medianil, en donde se guarda el afiliado, el familiar, el medicamento, la cantidad, la fecha y si fue en internados o en ambulatorio.\par
+\par
+-CAJA COBRANZA DE SITUACIONES ESPECIALES COMO INTERNACIONES O COSAS ASI SIMILARES A UN PLAN DE PAGO QUE POR AHORA SE COBRAN MANUALMENTE Y SE INGRESA MOVIMIENTO DE CAJA MANUAL PERO AVECES PAGAN EN CHEQUES.\par
+\pard\fi-360\li720\cf1\par
+\cf6 REINTEGRO 2 procesos: +100 por cheque sale por tesoreria y ordende pago iria con prestamos.\cf0\b0\fs24\par
+\par
+\cf3\b 3)\tab Planilla res\'famen de caja:\par
+\pard\fi-360\li1440\tx1440 a.\tab Autorizaciones:    \b0\par
+\pard\li1440 Coseguros clasificados por plan.\par
+\pard\par
+                                                      \b                     Total coseguro  \tab Dtoxplan. \tab Efectivo\b0\par
+\pard\fi-180\li2160\tx2160\b i.\tab UNSE                             \tab $ xxxxx              $ xxxxxx  \tab $ xxxxxx\b0\par
+\pard\fi-180\li2160\b ii.\tab SIS 1                               $ xxxxx          $ xxxxxx  \tab  $ xxxxxx\b0\par
+\b iii.\tab SIS 2                               $ xxxxx          $ xxxxxx  \tab  $ xxxxxx\b0\par
+\b iv.\tab Conv. Reciprocidad      $ xxxxx           $ xxxxxx   \tab $ xxxxxx\b0\par
+\pard\b\par
+                                                     Total              $ xxxxx             $ xxxxxx   $ xxxxxx\par
+ \b0\par
+\pard\fi-360\li1440\tx1440\b b.\tab Cuotas de Afiliaci\'f3n: \par
+\pard\par
+                       (clasificado seg\'fan tipo de afiliado)\par
+\par
+\pard\fi-180\li2160\tx2160 i.\tab UNSE                                                        $ xxxxxx  $ xxxxxx\par
+\pard\fi-180\li2160 ii.\tab SIS                                                             $ xxxxxx  $ xxxxxx\par
+iii.\tab Jubilados                                                   $ xxxxxx  $ xxxxxx\par
+iv.\tab Empleados                                                $ xxxxxx  $ xxxxxx\par
+v.\tab Adherentes                                               $ xxxxxx  $ xxxxxxx\par
+\par
+\b0 d.\tab Prestamos: Consensuar con Marcelo.\b\par
+\pard\par
+\pard\fi-360\li1440\tx1440 c.\tab Res\'famen fiscal: \b0 Esto tiene que coincidir con el Cierre Z.\par
+SE SACA UNO POR DIA CON FECHA.\b\par
+\pard\par
+                                     Tot. Bruto       excento   Grabado  IVA 10,5  IVA 21  TOTAL\par
+\pard\li1440\par
+Ticket A:   xxxx.xx       xxxxxx      xxxxxx     xxxxxxx xxxxx xxxxxxxx\par
+Ticket B:\par
+Nc. A     :\par
+Nc. B     :\par
+                  \par
+ Total        xxxxxxx       xxxxxx      xxxxxx     xxxxxxx xxxxx xxxxxxxx\par
+\pard\nowidctlpar\li705\fs28\par
+\cf1 -FECHA DE PRESCIPCION SIN GUARDAR EN NINGUN CAMPO CORRECGIR LISTADO DE CONSUMO.\cf3\par
+\par
+-EDICIONDE OBS DE AUTORIZACIONES YA EMITIDAS.\cf1\par
+\par
+\cf3 -FUNCION DTOENCUO DEVUELVE monto a descontar por afiliado.\cf2\par
+\par
+-error listado de autorizaciones.\par
+\cf5\par
+-CONTROL DE ALTA COBRANZA SALTEAR HASTA ENCONTRAR EL SIGUIENTE NUMERO SI YA EXISTE.\par
+\pard\nowidctlpar\par
+\tab -DERIVACIONES?\par
+\par
+\tab -AGREGAR CHEQUES EN REINTEGROS AL ARCHIVO \tab CHExREINT.\par
+\par
+\tab -\cf3\f3\fs24 DAR DE BAJA TITULAR Y QUE AUTOMATICAMENTE DE DE BAJA TODO EL GRUPO FAMILIAR\par
+\par
+\pard\li277\ri18\tx720\b0\fs16 -FECHA DE FIN DE RECIPROCIDAD, \par
+\pard\nowidctlpar\cf7\b\f1\fs28\par
+\pard\nowidctlpar\fi-360\li720\cf5\tab\par
+\tab -TICKET TEXTO y \cf6 FACTURA TEXTO.\par
+\cf5\par
+\pard\nowidctlpar\tab - VER CONTROL POR CONCEPTOS DE CTACTE EN COBRANZA.\par
+\par
+\pard\nowidctlpar\li708\tx2160 -REVISAR SI HACE FALTA AGREGAR CAMPOS EN LISTADOS ANTERIORES\par
+\par
+-NOTA DE CREDITO MANUAL: IMPUTAR CUPONES? TIPO NC??\par
+\par
+-Ver como definir los planes especiales para los afiliados (lo hablamos el lunes)\par
+\par
+- Reintegros separar por tipo haciendo 3 opciones diferentes, los de practica que ya caso estaria (falta agregar codigo de consulta). Reintegros Odontologicos y Reintegros de Medicamentos.\par
+\par
+- Seteo de vista de consumo por TIPO (practicas distintas y medicamentos)\par
+\par
+\pard\nowidctlpar\cf1\tab - error al grabar la nota de credito sin indicar efectivo y se confiorma \tab directamente = error.\par
+\cf5\par
+\pard\nowidctlpar\fi-360\li720\cf1 - en cobranza de cuotas de afiliados 1384 resp. Inscripto no asigna el nro de ticket en cta cte y registros.\par
+\par
+\pard\nowidctlpar\li705 -REVISAR ARCHIVOS A BLANQUEAR ANTES DE ARRANQUE.\par
+*!*\tab A_CTAITE\par
+*!*\tab A_CTADEU\par
+*!*\tab A_SPOOL\par
+*!*\tab CA_SALDO\par
+*!*\tab COBRANZA\par
+*!*\tab DTOENCUO\par
+*!*\tab FACT_OBS\par
+*!*\tab MOVE_AFI\par
+*!*\tab ANULORD\par
+*!*\tab CHPROPIO\par
+*!*\tab PRESTASS\par
+*!*\tab PRESTASG\par
+*!*\tab PRETASE\par
+*!*\tab PRESTASC\par
+*!*\tab PBONOS\cf5\par
+\par
+\cf1 -ERROR EN REINTEGRO\par
+\par
+-ERROR EN COPIA DE NOMENCLADOR\par
+\par
+\pard\nowidctlpar\fi-360\li720 -AUTORIZACION PRACTICA DE INTERRNACION FORMATO A5.\par
+\par
+\pard\fi-360\li720\tx720\fs24 1)\tab Cambiar el texto en todas las ordenes de autorizaci\'f3n en donde dice coseguro a cobrar, cambiar por \ldblquote coseguro SMAUNSE\rdblquote  \endash  Documento No Fiscal\rdblquote\par
+\par
+\f2 -necesito que en la monodroga, le pongas la opcion de que si el afiliado posee planes especiales activos, puedas poner o forzar coseguro cero.\cf0\b0\f1\par
+\par
+\pard\nowidctlpar\fi-360\li720\cf1\b 2)\tab LO que te ped\'ed de la monodroga:\b0  veo que si el afiliado posee plan materno o cualquier plan especial, te muestra la opci\'f3n de forzar sin coseguro, pero en la l\'ednea de total de la pantalla te muestra el coseguro pero la emite sin el. Corregi para que cuando tildes sin coseguro, muestre abajo al lado de grabar, coseguro cero. \par
+\par
+\pard\fi-360\li720\b\fs28 -INFO DETALLADA DEL COMP EN CTACTE, FILTRO POR CONCEPTO.\par
+\par
+-AL FORZAR PRECIO Y COSEGURO FORZAR TAMBIEN HONORARIOS a cero y MONTO\par
+\pard\cf0\b0\f4\fs20\par
+}
+ 

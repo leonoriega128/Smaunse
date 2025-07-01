@@ -1,0 +1,47 @@
+1)Que pasa con los medicamentos que no tienen un laboratorio,
+ como los marcan para asociarlo a un proveedor ?
+
+2)En pedidos, es importante colocar la fecha del pedido o se graba la fecha del dia del pedido
+
+3)Es posible que en el pedido a proveedor se guie por la fecha para continuar con un mismo pedido?
+  Cuando un pedido lleva mas de un dia.., por donde se guian para continuar con el pedido., por la fecha
+  del pedido, por el nro de pedido, o por donde ??
+
+4)El pedido realizado como llega al proveedor, por fax, por el papel que se imprime, por archivo que
+  se envie en algun formato ?
+
+5)Es importante las observaciones de factura y condiciones de compra, las observaciones del ulimo remito
+  y las observaciones del ulimo pedido.
+
+6)que deberia tener las observaciones grande de pedidos ???
+
+7)
+xsql0='Select int_remitos_detalle_in.codproducto,int_remitos_in.fecha '
+xsql1='FROM int_remitos_detalle_in '
+xsql2='LEFT OUTER JOIN int_remitos_in ON (int_remitos_detalle_in.codremito = int_remitos_in.codremito) '
+xsql3='where int_remitos_in.fecha>?xfechapasada '
+xsql4='ORDER BY int_remitos_in.fecha desc '
+=SQLEXEC(conexion,xsql0+xsql1+xsql2+xsql3+xsql4,'xmovim')
+Index On codproducto Tag codprod
+Go Top
+
+SELECT xpedidos_detalle
+Go Top
+Scan
+	If Seek(xpedidos_detalle.codproducto,'xmovim','codprod')
+*		Select xpedidos_detalle
+		Replace movim With 1
+		If Seek(xpedidos_detalle.cod_asoc,'xmlaboratorios','cod_asoc')
+			Select xmlaboratorios
+			Replace movim With 1
+		Endif
+		Select xpedidos_detalle
+	Endif
+Endscan
+Go Top
+
+
+8) Revisar tablas INT_REMITOS........
+
+9) Revisar tablas INT_PEDIDOS.........
+

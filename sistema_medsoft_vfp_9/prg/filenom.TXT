@@ -1,0 +1,4 @@
+estado del impresor fiscal                        0080                          
+estado del controlador fiscal                     0200                          
+Letra que indica el Tipo de Documento 					que se N                             
+Letra que caracteriza al documento (NABCX)        @NA                           

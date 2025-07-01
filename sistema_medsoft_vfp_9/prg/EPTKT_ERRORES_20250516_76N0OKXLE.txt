@@ -1,0 +1,7 @@
+Error al momento de Sincronizar la Impresora Fiscal.Estado de la impresora:
+Bit  3 Error en la Impresora
+Bit  4 Impresora Fuera de Línea
+Bit 16 Bits 0-6 Activados
+Estado del controlador fiscal:
+Bit 10 El Impresor tiene Número de Serie(Certificado)
+Bit 11 El controlador Fiscal esta Fiscalizado
